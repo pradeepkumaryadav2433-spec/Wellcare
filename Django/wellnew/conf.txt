@@ -1,0 +1,8 @@
+Models.py
+MoodLabel- User + label and position
+MoodEntry- User + note, audio and date
+MoodMeasurement- Used to take slider values in relation to MoodLabel and MoodEntry.
+
+Serializers.py
+MoodLabelSerializer- MoodLabel
+MoodConfigSerializer- Called by another serilaizer and validates the labels.

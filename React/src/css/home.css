@@ -1,0 +1,48 @@
+.slider{
+    min-height:600px;
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.1),
+            rgba(139,195,74,0.4)
+        ),
+        url("/images/mind_rose.jpeg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;    
+}
+
+.home-content{
+    padding: 60px;
+}
+
+.home-title{
+    font-size: clamp(1.8rem, 3vw, 2rem);
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+}
+
+.home-description{
+    font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+    line-height:1.6;
+    overflow-wrap:anywhere;
+}
+
+.register-btn{
+    width:250px;
+}
+
+/* Mobile */
+@media (max-width: 576px){
+    .slider{
+        min-width:500px;
+        background-attachment:scroll;
+        position:fixed;
+    }
+
+    .home-content{
+        padding-top:20px;
+        padding-bottom:40px;
+    }
+}

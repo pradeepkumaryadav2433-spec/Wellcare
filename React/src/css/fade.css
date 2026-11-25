@@ -1,0 +1,12 @@
+body {
+    transition:
+        filter 0.18s ease,
+        opacity 0.18s ease,
+        transform 0.14s ease;
+}
+
+body.blur-out {
+    filter: blur(2px);
+    opacity: 0.95;
+    transform: scale(1.01);
+}

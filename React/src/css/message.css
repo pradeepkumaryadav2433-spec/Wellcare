@@ -1,0 +1,61 @@
+.message-card {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    width: 300px;
+    background: white;
+
+    border-radius: 12px;
+    border-top: 15px solid #8BC34A;
+
+    padding: 18px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+
+    font-family: sans-serif;
+    z-index: 1000;
+}
+
+.message-card h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.message-card p {
+    margin: 0;
+    color: #666;
+}
+
+.button-group{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-login{
+    background-color: #8BC34A;
+    color: white;
+}
+
+.btn-login:hover{
+    transform: translateY(-2px);
+}
+
+.btn-home{
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.btn-home:hover{
+    background-color: #e0e0e0;
+}
